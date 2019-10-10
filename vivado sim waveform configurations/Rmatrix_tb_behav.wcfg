@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Rmatrix_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Rmatrix_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000000fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="15" />
+   <wvobject type="logic" fp_name="/Rmatrix_tb/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rmatrix_tb/validIn">
+      <obj_property name="ElementShortName">validIn</obj_property>
+      <obj_property name="ObjectShortName">validIn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rmatrix_tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rmatrix_tb/Rx">
+      <obj_property name="ElementShortName">Rx[12:0]</obj_property>
+      <obj_property name="ObjectShortName">Rx[12:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rmatrix_tb/Ry">
+      <obj_property name="ElementShortName">Ry[12:0]</obj_property>
+      <obj_property name="ObjectShortName">Ry[12:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rmatrix_tb/R11">
+      <obj_property name="ElementShortName">R11[15:0]</obj_property>
+      <obj_property name="ObjectShortName">R11[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rmatrix_tb/R12">
+      <obj_property name="ElementShortName">R12[15:0]</obj_property>
+      <obj_property name="ObjectShortName">R12[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rmatrix_tb/R13">
+      <obj_property name="ElementShortName">R13[15:0]</obj_property>
+      <obj_property name="ObjectShortName">R13[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rmatrix_tb/R21">
+      <obj_property name="ElementShortName">R21[15:0]</obj_property>
+      <obj_property name="ObjectShortName">R21[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rmatrix_tb/R22">
+      <obj_property name="ElementShortName">R22[15:0]</obj_property>
+      <obj_property name="ObjectShortName">R22[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rmatrix_tb/R23">
+      <obj_property name="ElementShortName">R23[15:0]</obj_property>
+      <obj_property name="ObjectShortName">R23[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rmatrix_tb/R31">
+      <obj_property name="ElementShortName">R31[15:0]</obj_property>
+      <obj_property name="ObjectShortName">R31[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rmatrix_tb/R32">
+      <obj_property name="ElementShortName">R32[15:0]</obj_property>
+      <obj_property name="ObjectShortName">R32[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rmatrix_tb/R33">
+      <obj_property name="ElementShortName">R33[15:0]</obj_property>
+      <obj_property name="ObjectShortName">R33[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rmatrix_tb/validOut">
+      <obj_property name="ElementShortName">validOut</obj_property>
+      <obj_property name="ObjectShortName">validOut</obj_property>
+   </wvobject>
+</wave_config>

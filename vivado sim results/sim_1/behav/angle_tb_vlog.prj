@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../REAL SOURCES/arcsin16to12.v"
+verilog xil_defaultlib  "../../../REAL SOURCES/stage2.v"
+verilog xil_defaultlib  "../../../REAL SOURCES/stage1.v"
+verilog xil_defaultlib  "../../../REAL SOURCES/stage3.v"
+verilog xil_defaultlib  "../../../REAL SOURCES/servo_angle_gen.v"
+verilog xil_defaultlib  "../../../REAL SOURCES/angle_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

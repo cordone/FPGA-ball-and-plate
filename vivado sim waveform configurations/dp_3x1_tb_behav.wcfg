@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dp_3x1_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="dp_3x1_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1605527639fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="11" />
+   <wvobject type="logic" fp_name="/dp_3x1_tb/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dp_3x1_tb/validIn">
+      <obj_property name="ElementShortName">validIn</obj_property>
+      <obj_property name="ObjectShortName">validIn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dp_3x1_tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dp_3x1_tb/A1">
+      <obj_property name="ElementShortName">A1[17:0]</obj_property>
+      <obj_property name="ObjectShortName">A1[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dp_3x1_tb/A2">
+      <obj_property name="ElementShortName">A2[17:0]</obj_property>
+      <obj_property name="ObjectShortName">A2[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dp_3x1_tb/A3">
+      <obj_property name="ElementShortName">A3[17:0]</obj_property>
+      <obj_property name="ObjectShortName">A3[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dp_3x1_tb/B1">
+      <obj_property name="ElementShortName">B1[17:0]</obj_property>
+      <obj_property name="ObjectShortName">B1[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dp_3x1_tb/B2">
+      <obj_property name="ElementShortName">B2[17:0]</obj_property>
+      <obj_property name="ObjectShortName">B2[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dp_3x1_tb/B3">
+      <obj_property name="ElementShortName">B3[17:0]</obj_property>
+      <obj_property name="ObjectShortName">B3[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dp_3x1_tb/dp">
+      <obj_property name="ElementShortName">dp[36:0]</obj_property>
+      <obj_property name="ObjectShortName">dp[36:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dp_3x1_tb/validOut">
+      <obj_property name="ElementShortName">validOut</obj_property>
+      <obj_property name="ObjectShortName">validOut</obj_property>
+   </wvobject>
+</wave_config>

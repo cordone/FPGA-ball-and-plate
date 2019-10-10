@@ -1,0 +1,7 @@
+Running: xsim.dir/ball_position_controller_tb_behav/xsimk -simmode gui -wdb ball_position_controller_tb_behav.wdb -simrunnum 0 -socket 36266
+Design successfully loaded
+Design Loading Memory Usage: 54404 KB (Peak: 55440 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 144344 KB (Peak: 201680 KB)
+Simulation CPU Usage: 20 ms

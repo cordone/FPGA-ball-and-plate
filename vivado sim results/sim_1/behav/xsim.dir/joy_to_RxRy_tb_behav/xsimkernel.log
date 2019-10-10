@@ -1,0 +1,7 @@
+Running: xsim.dir/joy_to_RxRy_tb_behav/xsimk -simmode gui -wdb joy_to_RxRy_tb_behav.wdb -simrunnum 0 -socket 55575
+Design successfully loaded
+Design Loading Memory Usage: 53040 KB (Peak: 53096 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 138880 KB (Peak: 200316 KB)
+Simulation CPU Usage: 20 ms

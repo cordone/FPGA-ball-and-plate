@@ -1,0 +1,46 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /var/local/xilinx-local/Vivado/2016.2/bin/unwrapped/lnx64.o/xelab -wto 8b88da8e353b4e9987c87d8e5f0027fd --debug typical --relax --mt 8 -L xbip_utils_v3_0_6 -L xbip_pipe_v3_0_2 -L xbip_bram18k_v3_0_2 -L mult_gen_v12_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ball_position_controller_tb_behav xil_defaultlib.ball_position_controller_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1374] size mismatch in mixed language port association, vhdl port a [/afs/athena.mit.edu/user/c/o/cordone/Desktop/6.111/FPGA-ball-and-plate/REAL SOURCES/ball_position_controller2.v:54]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package mult_gen_v12_0_11.mult_gen_v12_0_11_viv_comp
+Compiling package std.textio
+Compiling package xbip_utils_v3_0_6.xbip_utils_v3_0_6_pkg
+Compiling package mult_gen_v12_0_11.mult_gen_v12_0_11_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.std_logic_unsigned
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_11.dsp_pkg
+Compiling architecture xilinx of entity mult_gen_v12_0_11.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ar...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.ccm_scaled_adder [\ccm_scaled_adder(a_width=21,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ar...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.delay_line [\delay_line(c_xdevicefamily="art...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.ccm_scaled_adder [\ccm_scaled_adder(a_width=28,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.delay_line [\delay_line(c_xdevicefamily="art...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.ccm [\ccm(c_xdevicefamily="artix7",c_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.mult_gen_v12_0_11_viv [\mult_gen_v12_0_11_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.mult_gen_v12_0_11 [\mult_gen_v12_0_11(c_xdevicefami...]
+Compiling architecture vel_mult_arch of entity xil_defaultlib.vel_mult [vel_mult_default]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.delay_line [\delay_line(c_xdevicefamily="art...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.op_resize [\op_resize(ai_width=12,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.dsp [\dsp(c_xdevicefamily="artix7",c_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.ccm [\ccm(c_xdevicefamily="artix7",c_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.mult_gen_v12_0_11_viv [\mult_gen_v12_0_11_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_11.mult_gen_v12_0_11 [\mult_gen_v12_0_11(c_xdevicefami...]
+Compiling architecture mult_gen_0_arch of entity xil_defaultlib.mult_gen_0 [mult_gen_0_default]
+Compiling module xil_defaultlib.ball_position_controller2
+Compiling module xil_defaultlib.ball_position_controller_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ball_position_controller_tb_behav

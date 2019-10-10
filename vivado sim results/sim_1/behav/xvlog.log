@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/athena.mit.edu/user/c/o/cordone/Desktop/6.111/FPGA-ball-and-plate/REAL SOURCES/ball_position_controller2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ball_position_controller2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/athena.mit.edu/user/c/o/cordone/Desktop/6.111/FPGA-ball-and-plate/REAL SOURCES/ball_position_controller_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ball_position_controller_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/athena.mit.edu/user/c/o/cordone/Desktop/6.111/FPGA-ball-and-plate/FPGA-ball-and-plate.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

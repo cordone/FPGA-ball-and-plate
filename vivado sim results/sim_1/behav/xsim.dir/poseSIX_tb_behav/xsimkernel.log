@@ -1,0 +1,7 @@
+Running: xsim.dir/poseSIX_tb_behav/xsimk -simmode gui -wdb poseSIX_tb_behav.wdb -simrunnum 0 -socket 37268
+Design successfully loaded
+Design Loading Memory Usage: 107740 KB (Peak: 112508 KB)
+Design Loading CPU Usage: 150 ms
+Simulation completed
+Simulation Memory Usage: 188968 KB (Peak: 255016 KB)
+Simulation CPU Usage: 780 ms

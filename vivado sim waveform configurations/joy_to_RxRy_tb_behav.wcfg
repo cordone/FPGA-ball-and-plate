@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="joy_to_RxRy_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="joy_to_RxRy_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999996316fs"></ZoomStartTime>
+      <ZoomEndTime time="1000005557fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="logic" fp_name="/joy_to_RxRy_tb/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/joy_to_RxRy_tb/x_joy">
+      <obj_property name="ElementShortName">x_joy[11:0]</obj_property>
+      <obj_property name="ObjectShortName">x_joy[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/joy_to_RxRy_tb/y_joy">
+      <obj_property name="ElementShortName">y_joy[11:0]</obj_property>
+      <obj_property name="ObjectShortName">y_joy[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/joy_to_RxRy_tb/Rx">
+      <obj_property name="ElementShortName">Rx[12:0]</obj_property>
+      <obj_property name="ObjectShortName">Rx[12:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/joy_to_RxRy_tb/Ry">
+      <obj_property name="ElementShortName">Ry[12:0]</obj_property>
+      <obj_property name="ObjectShortName">Ry[12:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/joy_to_RxRy_tb/x_p">
+      <obj_property name="ElementShortName">x_p[27:0]</obj_property>
+      <obj_property name="ObjectShortName">x_p[27:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/joy_to_RxRy_tb/y_p">
+      <obj_property name="ElementShortName">y_p[27:0]</obj_property>
+      <obj_property name="ObjectShortName">y_p[27:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/joy_to_RxRy_tb/FIFTEEN">
+      <obj_property name="ElementShortName">FIFTEEN[12:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFTEEN[12:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/joy_to_RxRy_tb/NFIFTEEN">
+      <obj_property name="ElementShortName">NFIFTEEN[12:0]</obj_property>
+      <obj_property name="ObjectShortName">NFIFTEEN[12:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,4 @@
+Running: xsim.dir/Rmatrix_tb_behav/xsimk -simmode gui -wdb Rmatrix_tb_behav.wdb -simrunnum 0 -socket 46308
+Design successfully loaded
+Design Loading Memory Usage: 57244 KB (Peak: 57748 KB)
+Design Loading CPU Usage: 20 ms

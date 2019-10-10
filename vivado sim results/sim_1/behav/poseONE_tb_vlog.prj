@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../REAL SOURCES/stage3.v"
+verilog xil_defaultlib  "../../../REAL SOURCES/stage2.v"
+verilog xil_defaultlib  "../../../REAL SOURCES/stage1.v"
+verilog xil_defaultlib  "../../../REAL SOURCES/dp_3x1.v"
+verilog xil_defaultlib  "../../../REAL SOURCES/servo_angle_gen.v"
+verilog xil_defaultlib  "../../../REAL SOURCES/Rmatrix.v"
+verilog xil_defaultlib  "../../../REAL SOURCES/poseONE.v"
+verilog xil_defaultlib  "../../../REAL SOURCES/poseONE_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

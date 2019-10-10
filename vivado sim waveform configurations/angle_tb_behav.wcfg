@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="angle_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="angle_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000000fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="18" />
+   <wvobject type="logic" fp_name="/angle_tb/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/angle_tb/validIn">
+      <obj_property name="ElementShortName">validIn</obj_property>
+      <obj_property name="ObjectShortName">validIn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/angle_tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/angle_tb/lx90">
+      <obj_property name="ElementShortName">lx90[8:0]</obj_property>
+      <obj_property name="ObjectShortName">lx90[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/angle_tb/ly90">
+      <obj_property name="ElementShortName">ly90[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ly90[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/angle_tb/lz90">
+      <obj_property name="ElementShortName">lz90[8:0]</obj_property>
+      <obj_property name="ObjectShortName">lz90[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/angle_tb/lx330">
+      <obj_property name="ElementShortName">lx330[8:0]</obj_property>
+      <obj_property name="ObjectShortName">lx330[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/angle_tb/ly330">
+      <obj_property name="ElementShortName">ly330[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ly330[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/angle_tb/lz330">
+      <obj_property name="ElementShortName">lz330[8:0]</obj_property>
+      <obj_property name="ObjectShortName">lz330[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/angle_tb/lx210">
+      <obj_property name="ElementShortName">lx210[8:0]</obj_property>
+      <obj_property name="ObjectShortName">lx210[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/angle_tb/ly210">
+      <obj_property name="ElementShortName">ly210[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ly210[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/angle_tb/lz210">
+      <obj_property name="ElementShortName">lz210[8:0]</obj_property>
+      <obj_property name="ObjectShortName">lz210[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/angle_tb/angle90">
+      <obj_property name="ElementShortName">angle90[11:0]</obj_property>
+      <obj_property name="ObjectShortName">angle90[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/angle_tb/angle210">
+      <obj_property name="ElementShortName">angle210[11:0]</obj_property>
+      <obj_property name="ObjectShortName">angle210[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/angle_tb/angle330">
+      <obj_property name="ElementShortName">angle330[11:0]</obj_property>
+      <obj_property name="ObjectShortName">angle330[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/angle_tb/valid90">
+      <obj_property name="ElementShortName">valid90</obj_property>
+      <obj_property name="ObjectShortName">valid90</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/angle_tb/valid210">
+      <obj_property name="ElementShortName">valid210</obj_property>
+      <obj_property name="ObjectShortName">valid210</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/angle_tb/valid330">
+      <obj_property name="ElementShortName">valid330</obj_property>
+      <obj_property name="ObjectShortName">valid330</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="poseSIX_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="poseSIX_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="861870000fs"></ZoomStartTime>
+      <ZoomEndTime time="1029270001fs"></ZoomEndTime>
+      <Cursor1Time time="1500000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="28" />
+   <wvobject type="logic" fp_name="/poseSIX_tb/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/poseSIX_tb/validIn">
+      <obj_property name="ElementShortName">validIn</obj_property>
+      <obj_property name="ObjectShortName">validIn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/poseSIX_tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/Rx">
+      <obj_property name="ElementShortName">Rx[12:0]</obj_property>
+      <obj_property name="ObjectShortName">Rx[12:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/Ry">
+      <obj_property name="ElementShortName">Ry[12:0]</obj_property>
+      <obj_property name="ObjectShortName">Ry[12:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/poseSIX_tb/validOut">
+      <obj_property name="ElementShortName">validOut</obj_property>
+      <obj_property name="ObjectShortName">validOut</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group562">
+      <obj_property name="label">R MATRIX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/R11">
+         <obj_property name="ElementShortName">R11[17:0]</obj_property>
+         <obj_property name="ObjectShortName">R11[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">14</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/R12">
+         <obj_property name="ElementShortName">R12[17:0]</obj_property>
+         <obj_property name="ObjectShortName">R12[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">14</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/R13">
+         <obj_property name="ElementShortName">R13[17:0]</obj_property>
+         <obj_property name="ObjectShortName">R13[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">14</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/R21">
+         <obj_property name="ElementShortName">R21[17:0]</obj_property>
+         <obj_property name="ObjectShortName">R21[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">14</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/R22">
+         <obj_property name="ElementShortName">R22[17:0]</obj_property>
+         <obj_property name="ObjectShortName">R22[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">14</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/R23">
+         <obj_property name="ElementShortName">R23[17:0]</obj_property>
+         <obj_property name="ObjectShortName">R23[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">14</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/R31">
+         <obj_property name="ElementShortName">R31[17:0]</obj_property>
+         <obj_property name="ObjectShortName">R31[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">14</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/R32">
+         <obj_property name="ElementShortName">R32[17:0]</obj_property>
+         <obj_property name="ObjectShortName">R32[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">14</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/R33">
+         <obj_property name="ElementShortName">R33[17:0]</obj_property>
+         <obj_property name="ObjectShortName">R33[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">14</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group963">
+      <obj_property name="label">ANGLES</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/poseSIX_tb/angle1">
+         <obj_property name="ElementShortName">angle1[11:0]</obj_property>
+         <obj_property name="ObjectShortName">angle1[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/angle2">
+         <obj_property name="ElementShortName">angle2[11:0]</obj_property>
+         <obj_property name="ObjectShortName">angle2[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/angle3">
+         <obj_property name="ElementShortName">angle3[11:0]</obj_property>
+         <obj_property name="ObjectShortName">angle3[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/angle4">
+         <obj_property name="ElementShortName">angle4[11:0]</obj_property>
+         <obj_property name="ObjectShortName">angle4[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/angle5">
+         <obj_property name="ElementShortName">angle5[11:0]</obj_property>
+         <obj_property name="ObjectShortName">angle5[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/angle6">
+         <obj_property name="ElementShortName">angle6[11:0]</obj_property>
+         <obj_property name="ObjectShortName">angle6[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/uut/counter">
+      <obj_property name="ElementShortName">counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/uut/asin">
+      <obj_property name="ElementShortName">asin[12:0]</obj_property>
+      <obj_property name="ObjectShortName">asin[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/uut/alpha1">
+      <obj_property name="ElementShortName">alpha1[12:0]</obj_property>
+      <obj_property name="ObjectShortName">alpha1[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/uut/alpha2">
+      <obj_property name="ElementShortName">alpha2[12:0]</obj_property>
+      <obj_property name="ObjectShortName">alpha2[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/uut/alpha3">
+      <obj_property name="ElementShortName">alpha3[12:0]</obj_property>
+      <obj_property name="ObjectShortName">alpha3[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/uut/alpha4">
+      <obj_property name="ElementShortName">alpha4[12:0]</obj_property>
+      <obj_property name="ObjectShortName">alpha4[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/uut/alpha5">
+      <obj_property name="ElementShortName">alpha5[12:0]</obj_property>
+      <obj_property name="ObjectShortName">alpha5[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/uut/alpha6">
+      <obj_property name="ElementShortName">alpha6[12:0]</obj_property>
+      <obj_property name="ObjectShortName">alpha6[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/uut/atan1">
+      <obj_property name="ElementShortName">atan1[12:0]</obj_property>
+      <obj_property name="ObjectShortName">atan1[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/uut/atan2">
+      <obj_property name="ElementShortName">atan2[12:0]</obj_property>
+      <obj_property name="ObjectShortName">atan2[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/uut/atan3">
+      <obj_property name="ElementShortName">atan3[12:0]</obj_property>
+      <obj_property name="ObjectShortName">atan3[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/uut/atan4">
+      <obj_property name="ElementShortName">atan4[12:0]</obj_property>
+      <obj_property name="ObjectShortName">atan4[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/uut/atan5">
+      <obj_property name="ElementShortName">atan5[12:0]</obj_property>
+      <obj_property name="ObjectShortName">atan5[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/poseSIX_tb/uut/atan6">
+      <obj_property name="ElementShortName">atan6[12:0]</obj_property>
+      <obj_property name="ObjectShortName">atan6[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group682">
+      <obj_property name="label">SERVO 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/qx">
+         <obj_property name="ElementShortName">qx[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qx[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/qy">
+         <obj_property name="ElementShortName">qy[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qy[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/qz">
+         <obj_property name="ElementShortName">qz[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qz[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/lx0">
+         <obj_property name="ElementShortName">lx0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">lx0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/ly0">
+         <obj_property name="ElementShortName">ly0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">ly0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/lz0">
+         <obj_property name="ElementShortName">lz0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">lz0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/lx">
+         <obj_property name="ElementShortName">lx[8:0]</obj_property>
+         <obj_property name="ObjectShortName">lx[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/ly">
+         <obj_property name="ElementShortName">ly[8:0]</obj_property>
+         <obj_property name="ObjectShortName">ly[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/lz">
+         <obj_property name="ElementShortName">lz[8:0]</obj_property>
+         <obj_property name="ObjectShortName">lz[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/alpha/L">
+         <obj_property name="ElementShortName">L[15:0]</obj_property>
+         <obj_property name="ObjectShortName">L[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/alpha/M">
+         <obj_property name="ElementShortName">M[14:0]</obj_property>
+         <obj_property name="ObjectShortName">M[14:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/alpha/N">
+         <obj_property name="ElementShortName">N[14:0]</obj_property>
+         <obj_property name="ObjectShortName">N[14:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/alpha/magMN">
+         <obj_property name="ElementShortName">magMN[15:0]</obj_property>
+         <obj_property name="ObjectShortName">magMN[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo1/alpha/atan0">
+         <obj_property name="ElementShortName">atan0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">atan0[12:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group683">
+      <obj_property name="label">SERVO 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo2/qx">
+         <obj_property name="ElementShortName">qx[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qx[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo2/qy">
+         <obj_property name="ElementShortName">qy[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qy[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo2/qz">
+         <obj_property name="ElementShortName">qz[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qz[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo2/lx0">
+         <obj_property name="ElementShortName">lx0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">lx0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo2/ly0">
+         <obj_property name="ElementShortName">ly0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">ly0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo2/lz0">
+         <obj_property name="ElementShortName">lz0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">lz0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo2/lx">
+         <obj_property name="ElementShortName">lx[8:0]</obj_property>
+         <obj_property name="ObjectShortName">lx[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo2/ly">
+         <obj_property name="ElementShortName">ly[8:0]</obj_property>
+         <obj_property name="ObjectShortName">ly[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo2/lz">
+         <obj_property name="ElementShortName">lz[8:0]</obj_property>
+         <obj_property name="ObjectShortName">lz[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo2/alpha/L">
+         <obj_property name="ElementShortName">L[15:0]</obj_property>
+         <obj_property name="ObjectShortName">L[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo2/alpha/M">
+         <obj_property name="ElementShortName">M[14:0]</obj_property>
+         <obj_property name="ObjectShortName">M[14:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo2/alpha/N">
+         <obj_property name="ElementShortName">N[14:0]</obj_property>
+         <obj_property name="ObjectShortName">N[14:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo2/alpha/magMN">
+         <obj_property name="ElementShortName">magMN[15:0]</obj_property>
+         <obj_property name="ObjectShortName">magMN[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo2/alpha/atan0">
+         <obj_property name="ElementShortName">atan0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">atan0[12:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group684">
+      <obj_property name="label">SERVO 3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo3/qx">
+         <obj_property name="ElementShortName">qx[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qx[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo3/qy">
+         <obj_property name="ElementShortName">qy[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qy[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo3/qz">
+         <obj_property name="ElementShortName">qz[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qz[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo3/lx0">
+         <obj_property name="ElementShortName">lx0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">lx0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo3/ly0">
+         <obj_property name="ElementShortName">ly0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">ly0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo3/lz0">
+         <obj_property name="ElementShortName">lz0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">lz0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo3/lx">
+         <obj_property name="ElementShortName">lx[8:0]</obj_property>
+         <obj_property name="ObjectShortName">lx[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo3/ly">
+         <obj_property name="ElementShortName">ly[8:0]</obj_property>
+         <obj_property name="ObjectShortName">ly[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo3/lz">
+         <obj_property name="ElementShortName">lz[8:0]</obj_property>
+         <obj_property name="ObjectShortName">lz[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo3/alpha/L">
+         <obj_property name="ElementShortName">L[15:0]</obj_property>
+         <obj_property name="ObjectShortName">L[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo3/alpha/M">
+         <obj_property name="ElementShortName">M[14:0]</obj_property>
+         <obj_property name="ObjectShortName">M[14:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo3/alpha/N">
+         <obj_property name="ElementShortName">N[14:0]</obj_property>
+         <obj_property name="ObjectShortName">N[14:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo3/alpha/magMN">
+         <obj_property name="ElementShortName">magMN[15:0]</obj_property>
+         <obj_property name="ObjectShortName">magMN[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo3/alpha/atan0">
+         <obj_property name="ElementShortName">atan0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">atan0[12:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group685">
+      <obj_property name="label">SERVO 4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo4/qx">
+         <obj_property name="ElementShortName">qx[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qx[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo4/qy">
+         <obj_property name="ElementShortName">qy[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qy[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo4/qz">
+         <obj_property name="ElementShortName">qz[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qz[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo4/lx0">
+         <obj_property name="ElementShortName">lx0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">lx0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo4/ly0">
+         <obj_property name="ElementShortName">ly0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">ly0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo4/lz0">
+         <obj_property name="ElementShortName">lz0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">lz0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo4/lx">
+         <obj_property name="ElementShortName">lx[8:0]</obj_property>
+         <obj_property name="ObjectShortName">lx[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo4/ly">
+         <obj_property name="ElementShortName">ly[8:0]</obj_property>
+         <obj_property name="ObjectShortName">ly[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo4/lz">
+         <obj_property name="ElementShortName">lz[8:0]</obj_property>
+         <obj_property name="ObjectShortName">lz[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo4/alpha/L">
+         <obj_property name="ElementShortName">L[15:0]</obj_property>
+         <obj_property name="ObjectShortName">L[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo4/alpha/M">
+         <obj_property name="ElementShortName">M[14:0]</obj_property>
+         <obj_property name="ObjectShortName">M[14:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo4/alpha/N">
+         <obj_property name="ElementShortName">N[14:0]</obj_property>
+         <obj_property name="ObjectShortName">N[14:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo4/alpha/magMN">
+         <obj_property name="ElementShortName">magMN[15:0]</obj_property>
+         <obj_property name="ObjectShortName">magMN[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo4/alpha/atan0">
+         <obj_property name="ElementShortName">atan0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">atan0[12:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group686">
+      <obj_property name="label">SERVO 5</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo5/qx">
+         <obj_property name="ElementShortName">qx[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qx[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo5/qy">
+         <obj_property name="ElementShortName">qy[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qy[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo5/qz">
+         <obj_property name="ElementShortName">qz[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qz[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo5/lx0">
+         <obj_property name="ElementShortName">lx0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">lx0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo5/ly0">
+         <obj_property name="ElementShortName">ly0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">ly0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo5/lz0">
+         <obj_property name="ElementShortName">lz0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">lz0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo5/lx">
+         <obj_property name="ElementShortName">lx[8:0]</obj_property>
+         <obj_property name="ObjectShortName">lx[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo5/ly">
+         <obj_property name="ElementShortName">ly[8:0]</obj_property>
+         <obj_property name="ObjectShortName">ly[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo5/lz">
+         <obj_property name="ElementShortName">lz[8:0]</obj_property>
+         <obj_property name="ObjectShortName">lz[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo5/alpha/L">
+         <obj_property name="ElementShortName">L[15:0]</obj_property>
+         <obj_property name="ObjectShortName">L[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo5/alpha/M">
+         <obj_property name="ElementShortName">M[14:0]</obj_property>
+         <obj_property name="ObjectShortName">M[14:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo5/alpha/N">
+         <obj_property name="ElementShortName">N[14:0]</obj_property>
+         <obj_property name="ObjectShortName">N[14:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo5/alpha/magMN">
+         <obj_property name="ElementShortName">magMN[15:0]</obj_property>
+         <obj_property name="ObjectShortName">magMN[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo5/alpha/atan0">
+         <obj_property name="ElementShortName">atan0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">atan0[12:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group687">
+      <obj_property name="label">SERVO 6</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo6/qx">
+         <obj_property name="ElementShortName">qx[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qx[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo6/qy">
+         <obj_property name="ElementShortName">qy[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qy[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo6/qz">
+         <obj_property name="ElementShortName">qz[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qz[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo6/lx0">
+         <obj_property name="ElementShortName">lx0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">lx0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo6/ly0">
+         <obj_property name="ElementShortName">ly0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">ly0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo6/lz0">
+         <obj_property name="ElementShortName">lz0[18:0]</obj_property>
+         <obj_property name="ObjectShortName">lz0[18:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">10</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo6/lx">
+         <obj_property name="ElementShortName">lx[8:0]</obj_property>
+         <obj_property name="ObjectShortName">lx[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo6/ly">
+         <obj_property name="ElementShortName">ly[8:0]</obj_property>
+         <obj_property name="ObjectShortName">ly[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo6/lz">
+         <obj_property name="ElementShortName">lz[8:0]</obj_property>
+         <obj_property name="ObjectShortName">lz[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo6/alpha/L">
+         <obj_property name="ElementShortName">L[15:0]</obj_property>
+         <obj_property name="ObjectShortName">L[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo6/alpha/M">
+         <obj_property name="ElementShortName">M[14:0]</obj_property>
+         <obj_property name="ObjectShortName">M[14:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo6/alpha/N">
+         <obj_property name="ElementShortName">N[14:0]</obj_property>
+         <obj_property name="ObjectShortName">N[14:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo6/alpha/magMN">
+         <obj_property name="ElementShortName">magMN[15:0]</obj_property>
+         <obj_property name="ObjectShortName">magMN[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/poseSIX_tb/uut/servo6/alpha/atan0">
+         <obj_property name="ElementShortName">atan0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">atan0[12:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

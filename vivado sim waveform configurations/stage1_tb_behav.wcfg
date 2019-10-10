@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="stage1_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="stage1_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000002fs"></ZoomEndTime>
+      <Cursor1Time time="161765000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="10" />
+   <wvobject type="logic" fp_name="/stage1_tb/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/stage1_tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/stage1_tb/validIn">
+      <obj_property name="ElementShortName">validIn</obj_property>
+      <obj_property name="ObjectShortName">validIn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/stage1_tb/lx">
+      <obj_property name="ElementShortName">lx[8:0]</obj_property>
+      <obj_property name="ObjectShortName">lx[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/stage1_tb/ly">
+      <obj_property name="ElementShortName">ly[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ly[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/stage1_tb/lz">
+      <obj_property name="ElementShortName">lz[8:0]</obj_property>
+      <obj_property name="ObjectShortName">lz[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/stage1_tb/L">
+      <obj_property name="ElementShortName">L[15:0]</obj_property>
+      <obj_property name="ObjectShortName">L[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/stage1_tb/M">
+      <obj_property name="ElementShortName">M[13:0]</obj_property>
+      <obj_property name="ObjectShortName">M[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/stage1_tb/N">
+      <obj_property name="ElementShortName">N[14:0]</obj_property>
+      <obj_property name="ObjectShortName">N[14:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/stage1_tb/validOut">
+      <obj_property name="ElementShortName">validOut</obj_property>
+      <obj_property name="ObjectShortName">validOut</obj_property>
+   </wvobject>
+</wave_config>
